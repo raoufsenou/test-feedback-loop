@@ -117,10 +117,3 @@ The replacement is prepared and validated before the current installation is exc
 ```
 
 With no mode, the skill performs the read-only `audit` and waits for a decision.
-
-## Publishing
-
-The repository root is the skill root, so a GitHub checkout is also the install source. Publishing
-and global installation are separate operations: installation copies the artifact and does not
-depend on the checkout remaining available. The package is intentionally marked private to prevent
-accidental npm publication; that setting does not restrict GitHub repository visibility.
