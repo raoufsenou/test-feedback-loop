@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.key
+*.pem
+*.p12
+*.pfx
